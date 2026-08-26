@@ -1,0 +1,46 @@
+# Raw datasets (too large for git) — anchored to repo root
+/MODMA-Dataset/
+/MODMA_AUDIO Datatset/
+/RAVDESS Emotional speech audio/
+/Daicwoz/
+/Stress datasets/
+/DAIC-WOZ Dataset/
+
+# Large ZIP archives
+processed_data.zip
+
+# Processed data — large binary / generated artefacts (regenerate from notebooks)
+processed_data/**/*.npy
+processed_data/**/*.pkl
+processed_data/**/*_full.csv
+processed_data/daicwoz/extracted_sessions/
+
+# Claude Code internal config
+.claude/
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment / secrets
+.env
+.env.*
+*.env
+!.env.example
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+
+# Local Python virtual environment
+venv/
